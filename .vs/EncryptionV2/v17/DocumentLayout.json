@@ -1,0 +1,117 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Mohamed Abraar\\source\\repos\\EncryptionV2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2A705C38-A30D-41BF-B8FE-75AF54D28682}|EncryptionV2.vcxproj|C:\\Users\\Mohamed Abraar\\source\\repos\\EncryptionV2\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2A705C38-A30D-41BF-B8FE-75AF54D28682}|EncryptionV2.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A705C38-A30D-41BF-B8FE-75AF54D28682}|EncryptionV2.vcxproj|C:\\Users\\Mohamed Abraar\\source\\repos\\EncryptionV2\\decryption.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2A705C38-A30D-41BF-B8FE-75AF54D28682}|EncryptionV2.vcxproj|solutionrelative:decryption.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A705C38-A30D-41BF-B8FE-75AF54D28682}|EncryptionV2.vcxproj|C:\\Users\\Mohamed Abraar\\source\\repos\\EncryptionV2\\encryption.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2A705C38-A30D-41BF-B8FE-75AF54D28682}|EncryptionV2.vcxproj|solutionrelative:encryption.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A705C38-A30D-41BF-B8FE-75AF54D28682}|EncryptionV2.vcxproj|C:\\Users\\Mohamed Abraar\\source\\repos\\EncryptionV2\\decryption.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2A705C38-A30D-41BF-B8FE-75AF54D28682}|EncryptionV2.vcxproj|solutionrelative:decryption.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A705C38-A30D-41BF-B8FE-75AF54D28682}|EncryptionV2.vcxproj|C:\\Users\\Mohamed Abraar\\source\\repos\\EncryptionV2\\encryption.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2A705C38-A30D-41BF-B8FE-75AF54D28682}|EncryptionV2.vcxproj|solutionrelative:encryption.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "encryption.h",
+              "DocumentMoniker": "C:\\Users\\Mohamed Abraar\\source\\repos\\EncryptionV2\\encryption.h",
+              "RelativeDocumentMoniker": "encryption.h",
+              "ToolTip": "C:\\Users\\Mohamed Abraar\\source\\repos\\EncryptionV2\\encryption.h",
+              "RelativeToolTip": "encryption.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-01T16:48:52.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "decryption.h",
+              "DocumentMoniker": "C:\\Users\\Mohamed Abraar\\source\\repos\\EncryptionV2\\decryption.h",
+              "RelativeDocumentMoniker": "decryption.h",
+              "ToolTip": "C:\\Users\\Mohamed Abraar\\source\\repos\\EncryptionV2\\decryption.h",
+              "RelativeToolTip": "decryption.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-12-01T16:48:24.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\Mohamed Abraar\\source\\repos\\EncryptionV2\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\Mohamed Abraar\\source\\repos\\EncryptionV2\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAUwCYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-01T16:47:48.579Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "decryption.cpp",
+              "DocumentMoniker": "C:\\Users\\Mohamed Abraar\\source\\repos\\EncryptionV2\\decryption.cpp",
+              "RelativeDocumentMoniker": "decryption.cpp",
+              "ToolTip": "C:\\Users\\Mohamed Abraar\\source\\repos\\EncryptionV2\\decryption.cpp",
+              "RelativeToolTip": "decryption.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-01T16:47:34.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "encryption.cpp",
+              "DocumentMoniker": "C:\\Users\\Mohamed Abraar\\source\\repos\\EncryptionV2\\encryption.cpp",
+              "RelativeDocumentMoniker": "encryption.cpp",
+              "ToolTip": "C:\\Users\\Mohamed Abraar\\source\\repos\\EncryptionV2\\encryption.cpp",
+              "RelativeToolTip": "encryption.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-01T16:46:39.185Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
