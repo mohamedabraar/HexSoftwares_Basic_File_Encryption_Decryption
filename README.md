@@ -1,83 +1,117 @@
-# HexSoftwares Basic File Encryption and Decryption
+## HexSoftwares Basic File Encryption and Decryption
 
-## Overview
+## Introduction
 
-**HexSoftwares Basic File Encryption and Decryption** is a simple and secure tool that allows users to encrypt and decrypt files using a basic encryption algorithm. The tool is designed to provide an easy-to-use interface for file protection with the added benefit of file security.
+HexSoftwares Basic File Encryption and Decryption is a lightweight and user-friendly tool designed to safeguard sensitive data. Inspired by the seamless and intuitive workflows of **I Love PDF**, this project aims to bring similar ease of use and functionality to the realm of file security. 
 
-The program uses a shift-based encryption method (Caesar Cipher) to encrypt and decrypt files. The user can select a file to encrypt or decrypt and specify a shift value for the algorithm. The encrypted or decrypted file can be saved with a new name.
+Whether you're encrypting a private document or decrypting an important file, this tool ensures your files are processed securely and efficiently. Its simple interface, combined with robust functionality, makes it a perfect choice for anyone looking to add an extra layer of security to their data.
+
+---
 
 ## Features
 
-- **File Encryption**: Encrypt your files with a custom shift value.
-- **File Decryption**: Decrypt files using the same shift value used for encryption.
-- **File Selection**: Choose files to encrypt or decrypt via a file dialog.
-- **Progress Indicator**: View a loading effect while processing files.
-- **Error and Success Messages**: Helpful messages to guide users through the process.
+- **File Encryption**: Protect files with a Caesar Cipher-based encryption method.
+- **File Decryption**: Restore encrypted files using the correct shift value.
+- **Intuitive UI**: Inspired by **I Love PDF**, the program offers a clean, menu-driven interface.
+- **File Selection Dialogs**: Powered by TinyFileDialogs for user convenience.
+- **Customizable Shift Values**: Choose a numeric key for added encryption variability.
+- **Error Handling and Feedback**: Receive informative success or error messages throughout the process.
+- **Loading Animation**: Visual feedback during file processing.
+
+---
+
+## Algorithms Used
+
+The program employs a **Caesar Cipher**, a simple yet effective substitution cipher named after Julius Caesar. Here's a breakdown:
+
+### 1. **Encryption Algorithm**
+The Caesar Cipher encrypts text by shifting each character by a fixed number of places (the shift value) in the alphabet. 
+
+For example:
+- Plaintext: `HELLO`
+- Shift Value: `3`
+- Encrypted Text: `KHOOR`
+
+Each character is shifted forward by 3 positions. Non-alphabetic characters are not altered, ensuring compatibility with various file types.
+
+
+### 2. **Decryption Algorithm**
+Decryption reverses the encryption process by shifting characters backward by the same shift value. Using the example above:
+- Encrypted Text: `KHOOR`
+- Shift Value: `3`
+- Decrypted Text: `HELLO`
+
+
+These algorithms are computationally efficient and work seamlessly for large text-based files.
+
+---
+
+## Inspiration
+
+The inspiration for this project came from **I Love PDF**, a versatile and user-friendly online tool that simplifies PDF management. The goal was to replicate its approachable design philosophy and user-centric approach in a desktop application for encryption and decryption.
+
+This project embodies the principles of simplicity, accessibility, and efficiency. It serves as a stepping stone toward creating more sophisticated file-processing tools with an intuitive design.
+
+---
 
 ## Requirements
 
-- **C++ Compiler**: The program is written in C++ and requires a C++ compiler to build.
-- **TinyFileDialogs Library**: Used for file selection dialogs.
-- **Windows OS**: The program is designed to run on Windows.
+- C++ Compiler: The program is written in C++ and requires a modern C++ compiler.
+- TinyFileDialogs Library: For file selection dialogs.
+- Windows OS: Currently supported on Windows.
+
+---
 
 ## Installation
 
-1. Clone the repository:
-
+1. Clone the Repository:
    ```bash
    git clone https://github.com/mohamedabraar/HexSoftwares_Basic_File_Encryption_Decryption.git
-
-2. Open the project in Visual Studio 2022 or your preferred C++ IDE.
-
-3. Build the project.
-
-4. Run the program.
-
-
-## How to Use
-## Encryption
-
-Choose Option 1: Encrypt a file from the main menu.
-
-Select the file you want to encrypt.
-
-Enter a shift value (1-25).
-
-Save the encrypted file with a new name.
-
-
-## Decryption
-
-Choose Option 2: Decrypt a file from the main menu.
-
-Select the encrypted file you want to decrypt.
-
-Enter the same shift value used for encryption.
-
-Save the decrypted file with a new name.
-
-
-## Exiting the Program
-
-Choose Option 3: Exit to exit the program.
-
-
-## Contributing
-
-Feel free to fork this repository and submit pull requests. Contributions are welcome!
-
-1. Fork the repository.
-
-2. Create a new branch (git checkout -b feature-branch).
+2. Set Up TinyFileDialogs:
+   Download and include the TinyFileDialogs library in your project.
    
-3. Commit your changes (git commit -am 'Add new feature').
-  
-4. Push to the branch (git push origin feature-branch).
+3. Open in Visual Studio:
+   Open the .sln file in Visual Studio 2022.
+   
+4. Build the Project:
+   Ensure all dependencies are properly linked, and then build the project.
 
-5. Create a new Pull Request.
+---
+
+## Usage
+
+Step 1: Start the Program
+   Run the application, and you'll see a menu with the following options:
+   Encrypt a File
+   Decrypt a File
+   Exit
+   
+Step 2: Choose an Option
+   Encrypt a File:
+
+   Select a file to encrypt using the file dialog.
+   Enter a shift value (1-25).
+   Save the encrypted file with a new name.
+   Decrypt a File:
+
+   Select the encrypted file.
+   Enter the shift value used for encryption.
+   Save the decrypted file with a new name.
+   
+Step 3: Process Feedback
+   The program provides a progress animation while processing and displays a success message upon completion.
+
+Step 4: Exit the Program
+   Select Option 3 to exit.
 
 
-## Acknowledgements
-TinyFileDialogs: A lightweight library for file selection dialogs.
-GitHub: Hosting and version control.
+## Future Enhancements
+
+Support for multiple encryption algorithms (AES, RSA).
+Cross-platform compatibility (macOS and Linux).
+Enhanced UI with a graphical interface.
+Batch processing of files.
+User authentication for added security.
+
+
 
